@@ -10,9 +10,11 @@
   <title>Sport</title>
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Raleway:400,500,700,800|Roboto:400,700&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="css/fontawesome.css">
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/style.css" />
   <script src="js/jquery-3.4.1.js"></script>
+  <script src="https://kit.fontawesome.com/ded17f69c9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -176,59 +178,80 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis </p>
+          <div class="tabs">
+            <ul class="tabs__caption links">
+              <li class="active">Projects</li>
+              <li>Travels</li>
+              <li>Mission</li>
+              <li>Photoes</li>
+            </ul>
+            <div class="tabs__content active">
+              <div class="row row_3 sport_block">
+                <div class="col_3 sport_item">
+                  <div class="sport_inner">
+                    <div class="sport_img">
+                      <img src="images/tel_icon.png" alt="tel">
+                    </div>
+                    <div class="title25">sport</div>
+                    <p>“Lorem ipsum dolor
+                      sit amet, consectetur
+                      adipisicing elit sed do”.</p>
+                    <div class='author_name'>adam johns</div>
+                    <div class="author_position">Account manager</div>
+                  </div>
+                </div>
 
-          <div class="links">
-            <a href="#">Projects</a>
-            <a href="#">Travel</a>
-            <a href="#">Mission</a>
-            <a href="#">Photos</a>
+                <div class="col_3 sport_item">
+                  <div class="sport_inner">
+                    <div class="sport_img">
+                      <img src="images/icon_men.png" alt="man">
+                    </div>
 
-          </div>
-          <div class="row row_3 sport_block">
-            <div class="col_3 sport_item">
-                <div class="sport_inner">
-              <div class="sport_img">
-                <img src="images/tel_icon.png" alt="tel">
+                    <div class="title25">sport</div>
+                    <p>“Lorem ipsum dolor
+                      sit amet, consectetur
+                      adipisicing elit sed do”.</p>
+                    <div class='author_name'>adam johns</div>
+                    <div class="author_position">Account manager</div>
+                  </div>
+                </div>
+
+
+                <div class="col_3 sport_item">
+                  <div class="sport_inner">
+                    <div class="sport_img">
+                      <img src="images/icon_weight.png" alt="weight">
+                    </div>
+                    <div class="title25">sport</div>
+                    <p>“Lorem ipsum dolor
+                      sit amet, consectetur
+                      adipisicing elit sed do”.</p>
+                    <div class='author_name'>adam johns</div>
+                    <div class="author_position">Account manager</div>
+                  </div>
+                </div>
+
               </div>
-            
-              <div class="title25">sport</div>
-              <p>“Lorem ipsum dolor
-                sit amet, consectetur
-                adipisicing elit sed do”.</p>
-              <div class='author_name'>adam johns</div>
-              <div class="author_position">Account manager</div>
             </div>
-          </div>
-
-            <div class="col_3 sport_item">
-                <div class="sport_inner">
-              <div class="sport_img">
-                <img src="images/icon_men.png" alt="man">
-              </div>
-              
-              <div class="title25">sport</div>
-              <p>“Lorem ipsum dolor
-                sit amet, consectetur
-                adipisicing elit sed do”.</p>
-              <div class='author_name'>adam johns</div>
-              <div class="author_position">Account manager</div>
+            <div class="tabs__content">
+              <p class="tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum est eos cupiditate quia et
+                error,
+                deleniti molestiae culpa ipsam omnis numquam quaerat autem quibusdam sapiente. Accusamus facere quis
+                quia cum?</p>
             </div>
-          </div>
-
-
-            <div class="col_3 sport_item">
-                <div class="sport_inner">
-              <div class="sport_img">
-                <img src="images/icon_weight.png" alt="weight">
-              </div>
-              <div class="title25">sport</div>
-              <p>“Lorem ipsum dolor
-                sit amet, consectetur
-                adipisicing elit sed do”.</p>
-              <div class='author_name'>adam johns</div>
-              <div class="author_position">Account manager</div>
+            <div class="tabs__content">
+              <p class="tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vel qui molestias dolorem,
+                nihil
+                nesciunt! Magni necessitatibus autem similique tempora provident possimus maxime omnis. Voluptatum atque
+                illo ullam adipisci? Quos!Optio voluptates et animi exercitationem ipsa nobis accusantium nemo veniam
+                omnis dignissimos dolorum, maiores, repellendus fuga natus laborum molestias tempora aliquam amet!
+                Repudiandae blanditiis et ducimus exercitationem provident odit assumenda?</p>
             </div>
-          </div>
+            <div class="tabs__content">
+              <p class="tab">Quos!Optio voluptates et animi exercitationem ipsa nobis accusantium nemo veniam
+                omnis dignissimos dolorum, maiores, repellendus fuga natus laborum molestias tempora aliquam amet!
+                Repudiandae blanditiis et ducimus exercitationem provident odit assumenda?</p>
+            </div>
           </div>
         </div>
       </section>
@@ -239,7 +262,6 @@
           <div class="sign">David Johnson</div>
         </div>
       </section>
-
       <section class="nature">
         <div class="col_2 black_bg nature_text">
           <div class="nature_text_inner">
@@ -253,7 +275,6 @@
         <div class=" col_2 nature_img" style="background-image: url('images/nature.jpg')">
         </div>
       </section>
-
       <section class="buy clearfix" style="background-image: url('images/buy.jpg')">
         <div class="container">
           <div class="buy_tickets">
@@ -264,8 +285,136 @@
           </div>
         </div>
       </section>
+      <section class="section projects black_bg">
+        <div class="container">
+          <div class="row row_2 flex-wrap">
+            <div class="col_2 project_item">
+              <div class="column_inner">
+                <div class="project_date">Projects / 20th August</div>
+                <h4 class="title21">Something new has just arrived</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. Ut enim ad minim v architecto beatae vitae dicta sunt es. omne essentiale
+                  dolor liquam.</p>
+              </div>
+            </div>
+            <div class="col_2 project_item">
+              <div class="column_inner">
+                <img src="images/project_1.png" alt="pr">
+              </div>
+            </div>
+            <div class="col_2 project_item">
+              <div class="column_inner">
+                <img src="images/project_2.png" alt="pr">
+              </div>
+            </div>
+            <div class="col_2 project_item">
+              <div class="column-inner">
+                <div class="project_date">Projects / 20th August</div>
+                <h4 class="title21">Something new has just arrived</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. Ut enim ad minim v architecto beatae vitae dicta sunt es. omne essentiale
+                  dolor liquam.</p>
+              </div>
+            </div>
+            <div class="col_2 project_item">
+              <div class="column-inner">
+                <div class="project_date">Projects / 20th August</div>
+                <h4 class="title21">Something new has just arrived</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. Ut enim ad minim v architecto beatae vitae dicta sunt es. omne essentiale
+                  dolor liquam.</p>
+              </div>
+            </div>
+            <div class="col_2 project_item">
+              <div class="column-inner">
+                <img src="images/project_3.png" alt="project">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gray_bg trips_block">
+        <div class="container">
+          <div class="row row_3 trips">
+            <div class="col_3 trips_item">
+              <h4 class="title21">Lorem ipsum dolor sit</h4>
+              <p>Trips / 16th March, 2019</p>
+            </div>
+            <div class="col_3 trips_item">
+              <h4 class="title21">Lorem ipsum dolor sit</h4>
+              <p>Trips / 16th March, 2019</p>
+            </div>
+            <div class="col_3 trips_item">
+              <h4 class="title21">Lorem ipsum dolor sit</h4>
+              <p>Trips / 16th March, 2019</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section class="section_quote section black_bg section_center">
+        <div class="container">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim </p>
+          <div class="sign">David Johnson</div>
+        </div>
+      </section>
     </main>
+    <footer class="gray_bg footer">
+      <div class="container">
+        <div class="row row_3 footer_inner">
+          <div class="col_2 about_block">
+            <h4 class="title25">about</h4>
+            <p>Lorem ipsum dolor sit amet, consec
+              tetur adipisicing elit, sed do eiusmod
+              tempor incididunt ultimam quantum</p>
+            <div class="social_icons">
+              <div class="social_item facebook">
+                <i class="fab fa-facebook-f"></i>
+              </div>
+              <div class="social_item instagram">
+                <i class="fab fa-instagram"></i>
+              </div>
+              <div class="social_item twitter">
+                <i class="fab fa-twitter"></i>
+              </div>
+              <div class="social_item youtube">
+                <i class="fab fa-youtube"></i>
+              </div>
+              <div class="social_item snapchat">
+                <i class="fab fa-snapchat-ghost"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col_2 footer_map">
+            <div class="map_item">
+              <h4>about</h4>
+              <a href="#">Team</a>
+              <a href="#">Join us</a>
+              <a href="#">Ethnic</a>
+              <a href="#">Goals</a>
+            </div>
+            <div class="map_item">
+              <h4>about</h4>
+              <a href="#">Team</a>
+              <a href="#">Join us</a>
+              <a href="#">Ethnic</a>
+              <a href="#">Goals</a>
+            </div>
+            <div class="map_item">
+              <h4>about</h4>
+              <a href="#">Team</a>
+              <a href="#">Join us</a>
+              <a href="#">Ethnic</a>
+              <a href="#">Goals</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom_footer">
+        <div class="container"></div>
+      </div>
+    </footer>
   </div>
   <script src="js/scripts.js"></script>
 </body>

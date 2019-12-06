@@ -108,7 +108,7 @@ font-family: 'Roboto', sans-serif;*/
 }
 
 .navigation a:hover,
-.links a:hover {
+.links li:hover {
 	color: #fff;
 }
 
@@ -237,9 +237,14 @@ font-family: 'Roboto', sans-serif;*/
 
 }
 
+
+
+
 .advantages {
 	padding: 130px 0 120px;
 }
+
+
 
 .advantages h4 {
 	font-size: 19px;
@@ -340,7 +345,9 @@ font-family: 'Roboto', sans-serif;*/
 	flex-wrap: wrap;
 }
 
-.links a {
+
+
+.links li {
 	color: #00c0ff;
 	margin-left: 45px;
 	margin-top: 90px;
@@ -348,7 +355,10 @@ font-family: 'Roboto', sans-serif;*/
 	font-size: 17px;
 }
 
-.links a:first-child {
+
+
+
+.links li:first-child {
 	margin-left: 0;
 }
 
@@ -359,6 +369,8 @@ font-family: 'Roboto', sans-serif;*/
 	align-items: center;
 
 }
+
+
 
 .sport_item {
 
@@ -378,6 +390,8 @@ font-family: 'Roboto', sans-serif;*/
 
 
 }
+
+
 
 
 .title25 {
@@ -489,6 +503,241 @@ font-family: 'Roboto', sans-serif;*/
 	margin: 25px 0 46px;
 }
 
+.tabs__content {
+	display: none;
+}
+
+.tabs__content.active {
+	display: block;
+}
+
+.tab {
+	padding-top: 70px;
+	color: #fff;
+}
+
+.tabs__caption li {
+	transition: .2s;
+	padding: 8px 15px;
+	border-radius: 4px;
+
+}
+
+.tabs__caption li:hover {
+
+	background: #00C0FF;
+	color: #fff;
+	cursor: pointer;
+}
+
+.project_item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.projects img {
+	max-width: 120px;
+}
+
+.title21 {
+	font-size: 21px;
+	font-weight: 500;
+
+
+}
+
+.projects .title21 {
+	margin: 0 0 40px;
+	text-transform: uppercase;
+
+}
+
+.projects p {
+	font-size: 17px;
+	line-height: 1.2;
+	max-width: 350px;
+	margin: 0 auto;
+}
+
+
+.project_date {
+	font-size: 17px;
+	margin: 0 0 12px;
+}
+
+.projects .col_2 {
+	padding: 40px 15px;
+	margin: 0 0 140px;
+}
+
+
+.projects {
+	margin-bottom: -155px;
+	overflow: hidden;
+}
+
+
+.trips_block {
+	padding: 90px 0;
+}
+
+.trips {
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	font-weight: 500;
+
+}
+
+.trips_item {
+	margin-left: 40px;
+}
+
+.trips_item p {
+	font-size: 17px;
+
+}
+
+.trips_item .title21 {
+	margin: 0 0 15px;
+}
+
+.section_quote .sign {
+	font-weight: 500;
+	margin-top: 25px;
+	font-size: 19px;
+}
+
+.section_quote p {
+	font-size: 21px;
+	max-width: 700px;
+	line-height: 1.5;
+
+}
+
+.footer {
+
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+
+.footer_inner {
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 80px 15px 70px;
+
+}
+
+.about_block .title25 {
+	margin: 0;
+	margin-bottom: 20px;
+
+}
+
+.about_block p {
+	max-width: 340px;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+.social_icons {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-grow: 1;
+	margin-top: 18px;
+}
+
+
+.social_item {
+	border: 1px solid #000;
+	border-radius: 50%;
+	height: 32px;
+	width: 32px;
+	background: #fff;
+	position: relative;
+	margin-right: 13px;
+}
+
+.social_item:hover {
+	background: #00c0ff;
+
+}
+
+.fab {
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #000;
+}
+
+.fab:hover {
+	color: #fff;
+}
+
+.fa-instagram {
+	font-size: 21px;
+}
+
+.fa-youtube {
+	font-size: 17px;
+}
+
+
+.footer_map {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+	flex-wrap: wrap;
+}
+
+
+
+.map_item {
+	font-size: 21px;
+	margin-left: 100px;
+
+}
+
+.map_item:first-child {
+	margin-left: 0;
+}
+
+.map_item h4 {
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+
+}
+
+.map_item a {
+	margin-bottom: 10px;
+	display: block;
+	color: #fff;
+	font-weight: 400;
+}
+
+.map_item a:last-child {
+	margin-bottom: 0;
+}
+
+.map_item a:hover {
+	color: #00c0ff;
+}
+
+.bottom_footer {
+	background-color: #00C0FF;
+	height: 25px;
+}
+
+
 
 @media (max-width: 1683px) {
 	.priorities {
@@ -513,19 +762,26 @@ font-family: 'Roboto', sans-serif;*/
 	.cart_inner {
 		padding: 40px 50px 60px;
 	}
+
+
 }
 
 @media (max-width: 1024px) {
 	.sport_inner {
 		padding: 58px 45px 0;
-
 	}
+
+
 }
 
 @media (max-width: 960px) {
 
 	.nature_text {
 		padding: 160px 10px 260px;
+	}
+
+	.map_item {
+		margin-left: 50px;
 	}
 
 }
@@ -616,13 +872,11 @@ font-family: 'Roboto', sans-serif;*/
 		width: 100%;
 		left: 0;
 		background: rgba(25, 25, 25, 0.8);
-
 	}
 
 	.navigation li {
 		margin-left: 0;
 		text-align: center;
-
 	}
 
 	.header_inner {
@@ -651,7 +905,8 @@ font-family: 'Roboto', sans-serif;*/
 	.section,
 	.advantages,
 	.section_2,
-	.quote {
+	.quote,
+	.trips_block {
 		padding: 80px 0 80px;
 	}
 
@@ -659,7 +914,47 @@ font-family: 'Roboto', sans-serif;*/
 		padding: 140px 0 115px;
 	}
 
+	.projects .col_2 {
+		margin: 0 0 80px;
+	}
 
+}
+
+@media (max-width:720px) {
+	.footer_inner {
+		flex-direction: column-reverse;
+	}
+
+	.footer_inner .col_2 {
+		width: 100%;
+	}
+
+	.social_icons {
+		justify-content: flex-end;
+		margin-top: 18px;
+	}
+
+	.footer_map {
+		justify-content: flex-start;
+		margin-bottom: 50px;
+
+	}
+
+	.map_item {
+		margin-left: 75px;
+	}
+
+	.map_item h4 {
+		margin-bottom: 15px;
+	}
+
+	.about_block p {
+		max-width: 100%;
+	}
+
+	.about_block .title25 {
+		margin-bottom: 15px;
+	}
 }
 
 @media (max-width:640px) {
@@ -681,7 +976,8 @@ font-family: 'Roboto', sans-serif;*/
 	.section,
 	.advantages,
 	.section_2,
-	.quote {
+	.quote,
+	.trips_block {
 		padding: 70px 0 70px;
 	}
 
@@ -708,10 +1004,20 @@ font-family: 'Roboto', sans-serif;*/
 	.priorities {
 		margin-top: -10px;
 	}
+
+	h4.title21,
+	.trips_item p {
+		text-align: center;
+	}
 }
 
 
 @media (max-width:480px) {
+
+	.section,
+	.trips_block {
+		padding: 40px 0 40px;
+	}
 
 	.quote p {
 		font-size: 19px;
@@ -741,14 +1047,35 @@ font-family: 'Roboto', sans-serif;*/
 		text-align: center;
 		font-size: 17px;
 	}
+
+	.projects img {
+		max-width: 100px;
+	}
+
+	.section_quote p {
+		font-size: 17px;
+	}
+
+	.map_item a,
+	.about_block p {
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 390px) {
+
+	.map_item {
+
+		margin-left: 50px;
+	}
+
 }
 
 @media (max-width: 350px) {
 
-
 	.main_block {
 		padding: 305px 0 92px;
-		background-position: 66%
+		background-position: 66%;
 	}
 
 	.main_block p {
@@ -771,7 +1098,6 @@ font-family: 'Roboto', sans-serif;*/
 	.header_inner {
 		flex-direction: column;
 		padding-top: 5px;
-
 	}
 
 	.logo {
@@ -815,12 +1141,19 @@ font-family: 'Roboto', sans-serif;*/
 		padding: 10px 30px;
 		height: 37px;
 		font-size: 16px;
-
 	}
 
 	.button_lg {
 		font-size: 17px;
 		height: 46px;
+	}
+
+	h4.title21 {
+		font-size: 19px;
+	}
+
+	.trips_item p {
+		font-size: 15px;
 	}
 
 }
